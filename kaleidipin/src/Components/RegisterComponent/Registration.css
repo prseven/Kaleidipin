@@ -1,0 +1,62 @@
+body{
+    /* background-image: url(../Images/vino-li-W1py5swbJZY-unsplash.jpg); */
+}
+.register-card{
+    background: rgb(167, 26, 26);
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: -9%;
+    background: rgb(37, 35, 35);   
+    opacity: 0.8;
+}
+
+.register-card:hover {
+    box-shadow:  0 2px 8px rgb(80, 5, 219);
+    opacity: 1;
+}
+
+.register-control{
+        margin: 1rem 0;
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+}
+
+.register-control label,
+.register-control input {
+  display: block;
+}
+
+.register-control label {
+    font-weight: bold;
+    text-align: center;   
+    color: #cacaca;    
+}
+
+.register-control input {
+    flex: 3;
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+    background: rgb(231, 231, 231);
+}
+
+.register-control input:focus {
+    outline: none;
+    border-color: #4f005f;
+
+}
+
+.register-text{
+    text-align: center;
+    margin-top: 10%;        
+}
+
+.to-login{
+    color: rgb(180, 180, 180);
+}
+
+.errorText{
+    color: red;
+}

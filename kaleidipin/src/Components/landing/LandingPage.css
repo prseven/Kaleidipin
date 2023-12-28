@@ -1,0 +1,24 @@
+/* *{
+    background-image: image("https://unsplash.com/photos/planet-mars-on-a-space-background-image-of-the-red-planet-KKHmhIUJPAE");
+} */
+.continer{
+    background-image: url(https://unsplash.com/photos/planet-mars-on-a-space-background-image-of-the-red-planet-KKHmhIUJPAE);
+  
+}
+
+.navbar{
+    background-color: #690de0;
+    opacity: 0.8;
+    text-align: center;
+}
+.card-title{
+    color: #0008ff;
+}
+
+.card-text{
+    color: #00035a;
+}
+
+.card-img{
+    opacity: 0.7;
+}

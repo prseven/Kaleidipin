@@ -1,0 +1,77 @@
+
+.register-card{
+    /* background: rgb(167, 26, 26); */
+   
+    border-radius: 10px;
+    /* width: 50%; */
+    margin-left: 25%;
+    margin-top: -9%;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border: 1px solid #4f4f4f;   
+    border-radius: 8px;
+    /* opacity: 0.8; */
+   
+}
+
+.register-card:hover {
+    box-shadow:  0 2px 8px #2c2c2c;
+    opacity: 1;
+}
+
+.register-control{
+        margin: 1rem 0;
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+}
+
+.register-control label,
+.register-control input {
+  display: block;
+}
+
+.register-control label {
+    text-align: center;   
+    color: #9aebff;    
+}
+
+.register-control input {
+    flex: 3;
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+    background: #ffffff;
+}
+
+.register-control input:focus {
+    outline: none;
+    border-color: #e60d0d;
+
+}
+
+.register-text{
+    text-align: center;
+    margin-top: 10%;
+    background-image: url(../Images/earth-1756274.jpg);
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover;
+        
+}
+
+.to-login{
+    color: rgb(107, 105, 105);
+}
+
+.errorText{
+    color: red;
+}
+
+.navbar, footer{
+
+background-image: linear-gradient(#2c2c2c, #bababa);
+
+}
+
+

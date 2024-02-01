@@ -1,0 +1,26 @@
+/* .image-container{
+    width: 50%;
+    height: 80%;
+} */
+
+/* .dashboard{
+    background: transparent;
+    backdrop-filter: blur(20px);
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(162, 22, 22);
+    border-radius: 8px;
+} */
+
+.dash-image{
+    border-radius: 15px;
+    margin-left: 10px !important;
+}
+
+.dashboard {
+    background: transparent;
+    backdrop-filter: blur;
+    border: 1px solid #4f4f4f;
+    box-shadow : 0 4px 8px 0 #bababa, 0 6px 20px #bababa !important;
+
+}

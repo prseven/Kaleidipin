@@ -1,0 +1,89 @@
+
+/* .card-title{
+    color: hsl(238, 100%, 50%);
+}
+
+.card-text{
+    color: #00035a;
+}
+
+.card-img{
+    opacity: 1;
+} */
+
+
+
+.card-sec-div{
+    padding: 100px;
+    justify-content: center; 
+    background: transparent;
+    backdrop-filter: blur(3px);
+    height: 50%;
+    width: 70%;
+    border: 1px solid #bfbfbf;
+    border-radius: 8px;
+} 
+
+.navbar {
+    background-color: #4f4f4f;
+   
+}
+
+.navbar-text{
+    text-decoration: none;
+    background-color: #4f4f4f;
+    /* background-color: #00035a; */
+}
+
+.card-main-div{
+    /* padding-top: 60px;
+    padding-left: 120px; */
+    /* background-image: url(../Images/usukhbayar-gankhuyag-m_MdXo-axyg-unsplash.jpg); */
+    background-repeat: no-repeat;
+    background-position: space;
+    background-size:contain;
+    width: 100%;
+
+    
+}
+
+
+/* <h1 >Kaleidipin</h1>
+<p >-an AstroGazer</p>
+<p >
+  <small>Explore the space within your Hands.</small>
+</p>
+<button
+  onClick={buttonClick}
+  type="button"
+  class="btn btn-lg btn-outline-primary mt-5"
+>
+  Explore
+</button> */
+
+/* .main-card{
+    display: flex;
+    flex-direction: row;
+} */
+
+.main-card{
+    padding-top: 110px;
+    justify-content: center;
+}
+.card1{
+    z-index: 1;
+}
+
+.card2{
+    z-index: 3;
+}
+
+.body{
+    background-color: #bfbfbf;
+    color: #2C2C2C !important;
+}
+
+.navbar{
+    background-color: #bfbfbf !important;
+}
+

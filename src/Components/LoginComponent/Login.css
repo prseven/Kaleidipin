@@ -1,0 +1,194 @@
+.login-comp{
+    /* background-image: url(../Images/vino-li-W1py5swbJZY-unsplash.jpg); */
+    margin-top: 30px;
+    
+} 
+
+
+.login-com{
+    width: 90%;
+    margin: 2rem auto;
+    padding: 2rem;
+    
+}
+
+.login-control{
+    margin: 1rem 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.login-control label,
+.login-control input {
+display: block;
+}
+
+.login-control label {
+    font-weight: bold;
+    flex: 1;
+    color: #464646;
+    margin-bottom: 0.5rem;
+}
+
+.login-control input {
+    flex: 3;
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+    text-emphasis-color: white;
+  }
+
+.login-control input:focus {
+    outline: none;
+    border-color: #4f005f;
+    background: #f3f3f3;
+    
+  }
+.login-control.invalid input {
+    border-color: rgb(69, 69, 69);
+    background: #e9dafb;
+  }
+.login-action{
+    text-align: center;
+}
+
+.login-card {
+    background: rgba(69, 68, 68, 0.945);
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 20%;        
+}
+
+.login-card:hover {
+    background: rgba(125, 115, 115, 0.674);
+    box-shadow:  0 2px 8px rgb(20, 10, 37);
+    opacity: 0.7;
+
+}
+ 
+.login-text{
+    text-align: center;
+    margin-top: 10%;        
+}
+
+span{
+    color: rgb(52, 199, 15);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.To-Register{
+    color: rgb(180, 180, 180);
+}
+
+.login-btn {
+    font: inherit;
+    border: 1px solid #746e6b;
+    background: #7a7570;
+    color: white;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.15rem;
+    border-radius: 30px;
+}
+
+.login-btn:hover,
+.login-btn:active {
+background: rgb(0, 17, 112);
+border-color: #000000;
+}
+
+.login-btn:focus {
+    outline: none;
+  }
+
+.login-btn:disabled,
+.login-btn:focus:disabled,
+.login-btn:hover:disabled,
+.login-btn:active:disabled {
+    background: #ccc;
+    border-color: #ccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+
+
+  .register-div{
+    height: 85vh;
+    background-image: url(../Images/earth-1756274.jpg);
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover;
+    margin-top: 2px;
+    overflow: hidden;
+}
+.register-card{
+    /* background: rgb(167, 26, 26); */
+   
+   margin-top: 50px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -9%;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border: 1px solid #4f4f4f;   
+    border-radius: 8px;
+    /* opacity: 0.8; */
+}
+
+.register-card:hover {
+    box-shadow:  0 2px 8px #2c2c2c;
+    opacity: 1;
+}
+
+.register-control{
+        margin: 1rem 0;
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+}
+
+.register-control label,
+.register-control input {
+  display: block;
+}
+
+.register-control label {
+    font-weight: bold;
+    text-align: center;   
+    color: #bababa;    
+}
+
+.register-control input {
+    /* flex: 3; */
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+    background: #ffffffe4;
+}
+
+.register-control input:focus {
+    outline: none;
+    border-color: #000000;
+
+}
+
+.register-text{
+    text-align: center;
+    margin-top: 10%;        
+}
+
+.to-login{
+    color: rgb(180, 180, 180);
+}
+
+.errorText{
+    color: red;
+}
+
+.navbar{
+
+background-image: linear-gradient(#2c2c2c, #bababa);
+}
+

@@ -1,0 +1,63 @@
+#server:
+#  port:8098
+#spring:
+#  application:
+#    name:APIGATEWAYSERVICE
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: UserProfileService
+#          uri: http://localhost/8096
+#          predicates:
+#            - Path=/user/**
+#
+#      default-filters:
+#        - DedupeResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Crendentials
+#      globalcors:
+#        cors-configurations:
+#          '[/**]':
+#            allowedOrigins : "*"
+#            allowedMethods : "*"
+#            allowedHeaders : "*"
+
+server:
+  port: 8098
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+
+spring:
+  application:
+    name: APIGATEWAYSERVICE
+  cloud:
+    gateway:
+      routes:
+        - id: UserProfileService
+          uri: http://localhost:8097
+          predicates:
+            - Path=/user/**
+
+        - id: AuthenticationService
+          uri: http://localhost:8092
+          predicates:
+            - Path=/api/au/**
+
+        - id: APODService
+          uri: http://localhost:8096
+          predicates:
+            - Path=/api/ap/**"
+
+        - id: FavouriteService
+          uri: http://localhost:8090
+          predicates:
+            - Path=/api/fav/**"
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Origin Access-Controller-Allow-Credentails
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
